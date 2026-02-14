@@ -77,19 +77,24 @@ docker-compose down
 ```
 
 ## To run this two-tier application using  without docker-compose
-- Clene the repo
+- Clone the repo
 ```bash
 git colne https://github.com/Ritesh001-Git/two-tier-flask-app
 ```
 
-- First create a docker image from Dockerfile
+- Change the directory
+```bash
+cd two-tier-flask-app
+```
+
+- Create a docker image from Dockerfile
 ```bash
 docker build -t two-tier-backend .
 ```
 
 - Now, make sure that you have created a network using following command
 ```bash
-docker network create twotier
+docker network create two-tier -d bridge
 ```
 
 - Attach both the containers in the same network, so that they can communicate with each other
