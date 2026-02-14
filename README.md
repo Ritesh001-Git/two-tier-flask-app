@@ -107,6 +107,11 @@ ii) Backend container
 ```bash
 docker run -d -p 5001:5000 --network two-tier -e MYSQL_HOST=mysql -e MYSQL_USER=root -e MYSQL_PASSWORD=root -e MYSQL_DB=devops two-tier-backend:latest
 ```
+iii) Go to localhost 5001
+```bash
+localhost:5001
+```
+Send some message
 
 ## Notes
 
