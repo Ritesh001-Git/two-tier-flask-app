@@ -123,7 +123,8 @@ mysql -u root -p
 use devops
 select * from messages;
 
-Review your messages.```
+Review your messages.
+```
 ## Notes
 
 - Make sure to replace placeholders (e.g., `your_username`, `your_password`, `your_database`) with your actual MySQL configuration.
