@@ -80,7 +80,7 @@ docker-compose down
 
 - First create a docker image from Dockerfile
 ```bash
-docker build -t flaskapp .
+docker build -t two-tier-backend .
 ```
 
 - Now, make sure that you have created a network using following command
