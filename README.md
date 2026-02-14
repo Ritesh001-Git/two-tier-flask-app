@@ -77,6 +77,10 @@ docker-compose down
 ```
 
 ## To run this two-tier application using  without docker-compose
+- Clene the repo
+```bash
+git colne https://github.com/Ritesh001-Git/two-tier-flask-app
+```
 
 - First create a docker image from Dockerfile
 ```bash
