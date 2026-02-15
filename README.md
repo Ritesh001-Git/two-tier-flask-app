@@ -159,3 +159,8 @@ i) -v: Flag for volume.
 ii) mysql-data: The name of our volume.
 
 iii) /var/lib/mysql: Where MySQL stores its data inside the container.
+
+- Restart the two-tier-aap Container
+```bash
+docker restart 67faa6ce6185
+```
