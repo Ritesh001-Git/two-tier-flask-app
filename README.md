@@ -135,5 +135,17 @@ Review your messages.
 
 - If you encounter issues, check Docker logs and error messages for troubleshooting.
 
+
+## Mounting a Volume
+
+- Create a volume
+```bash
+docker volume create mysql-data
 ```
+- Inspect the volume
+```bash
+docker volume create mysql-data
+```
+- Stop the mysql container
+
 
