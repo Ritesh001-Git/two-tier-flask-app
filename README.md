@@ -154,6 +154,8 @@ docker stop 6b27c4da6d08 && docker rm 6b27c4da6d08
 ```bash
 docker run -d --name mysql --network two-tier -v mysql-data:/var/lib/mysql -e MYSQL_ROOT_PASSWORD=root -e MYSQL_DATABASE=devops mysql
 ```
--v: Flag for volume.
-mysql-data: The name of our volume.
-/var/lib/mysql: Where MySQL stores its data inside the container.
+i) -v: Flag for volume.
+
+ii) mysql-data: The name of our volume.
+
+iii) /var/lib/mysql: Where MySQL stores its data inside the container.
